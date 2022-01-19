@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+}
+
+section{
+    width: 100%;
+    height: 80vh;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: blueviolet;
+}
+
+.encriptador{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
