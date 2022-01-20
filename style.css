@@ -65,7 +65,7 @@ header{
         border: 0px solid #a1a1a1;
         border-radius: 10px;
         width: 320px;
-        height: 300px;
+        height: 250px;
         background-color: #ffffff;
         color: #0c0050;
         outline: none;
@@ -74,7 +74,7 @@ header{
 
     .caixa{
         width: 350px;
-        height: 420px;
+        height: 350px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -116,6 +116,8 @@ header{
         
 
     }
+
+    
 
 @media (min-width: 680px) {
     header{
