@@ -1,34 +1,108 @@
+@font-face {
+    font-family: "Kiona";
+    src: url("Kiona-Regular.ttf");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Kiona;
+    font-weight: 600;
 }
 
-header{
+
+@media (min-width: 768px) {
+    header{
+    display: flex;
     width: 100%;
     height: 10vh;
-    background-color: aqua;
-}
-
-section{
-    width: 100%;
-    height: 80vh;
-    border: 5px solid red;
-    display: flex;
+    background-color: #ff206e;
     align-items: center;
-    justify-content: center;
-}
+    }
+    h1{
+        margin-left: 20px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c0f0a;
+    }
+    section{
+        width: auto;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
 
-footer{
-    width: 100%;
-    height: 10vh;
-    background-color: blueviolet;
-}
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5vh;
+        background-color: #ff206e;
+    }
 
-.encriptador{
-    display: flex;
-    flex-direction: column;
-}
+    label{
+        color:#ff206e;
+        font-size: 32px;
+        margin: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: #0c0f0a;
+    }
+    .encriptador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+
+    .textarea{  
+        font-size: 16px;
+        resize: none;
+        border: 2px solid #ff206e;
+        border-radius: 10px;
+        width: 500px;
+        height: 300px;
+        background-color: #0c0f0a;
+        color: #ff206e;
+        outline: none;
+        padding: 3px;
+    }
+
+    .caixa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btts{
+        display: flex;
+    }
+    .btn{
+        border: 0px;
+        border-radius: 4px;
+        background-color: #ff206e;
+        height: 32px;        
+        width: 150px;
+        margin: 5px 5px;
+    }
+    .copy{
+        border: 1px solid #ff206e;
+        border-radius: 4px;
+        color: #ff206e;
+        background-color: #0c0f0a;
+        height: 32px;        
+        width: 150px;
+        margin: 5px 5px;
+        
+
+    }
+}
 
 
