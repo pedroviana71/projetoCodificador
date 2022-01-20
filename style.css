@@ -10,23 +10,134 @@
     font-weight: 600;
 }
 
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;    
+    align-items: center;
+    justify-content: center;
+    }
+    h1{
+        font-size: 64px;
+    }
+    main{width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff3b;
+        
+    }
+    section{        
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
 
-@media (min-width: 768px) {
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    label{
+        color:#2d3c57;
+        font-size: 16px;
+        margin: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: #0c0f0a;
+    }
+    .encriptador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .textarea{  
+        font-size: 20px;
+        resize: none;
+        border: 0px solid #a1a1a1;
+        border-radius: 10px;
+        width: 320px;
+        height: 300px;
+        background-color: #ffffff;
+        color: #0c0050;
+        outline: none;
+        padding: 5px;
+    }
+
+    .caixa{
+        width: 350px;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.274);
+    }
+    .btts{
+        display: flex;
+    }
+    .btn{
+        border: 0px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        height: 32px;        
+        width: 80px;
+        margin: 5px 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+        font-size: 16px;
+    }
+    .btn:hover {
+        border: 1px solid rgba(0, 0, 0, 0.178);
+        background-color:rgba(0, 0, 0, 0.055);
+        transition: background 0.2s;
+    }
+    .btn:active{
+        background-color: #06ff3c57;
+        
+    }
+    .copy{
+        border: 1px solid #5f5f5f;
+        border-radius: 4px;
+        color: #000000;
+        background-color: rgb(255, 255, 255);
+        height: 32px;        
+        width: 150px;
+        margin: 5px 5px;
+        
+
+    }
+
+@media (min-width: 680px) {
     header{
     display: flex;
     width: 100%;
-    height: 10vh;
-    background-color: #ff206e;
+    height: 10vh;    
     align-items: center;
+    justify-content: flex-start;
+    
     }
     h1{
+        font-size: 64px;
         margin-left: 20px;
     }
     main{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #0c0f0a;
+        background-color: #ffffff3b;
+        
     }
     section{
         width: auto;
@@ -43,11 +154,11 @@
         align-items: center;
         width: 100%;
         height: 5vh;
-        background-color: #ff206e;
+        background-color: rgb(255, 255, 255);
     }
 
     label{
-        color:#ff206e;
+        color:#2d3c57;
         font-size: 32px;
         margin: 10px;
     }
@@ -63,23 +174,28 @@
 
 
     .textarea{  
-        font-size: 16px;
+        font-size: 20px;
         resize: none;
-        border: 2px solid #ff206e;
+        border: 0px solid #a1a1a1;
         border-radius: 10px;
         width: 500px;
         height: 300px;
-        background-color: #0c0f0a;
-        color: #ff206e;
+        background-color: #ffffff;
+        color: #0c0050;
         outline: none;
-        padding: 3px;
+        padding: 5px;
     }
 
     .caixa{
+        width: 550px;
+        height: 420px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.274);
     }
     .btts{
         display: flex;
@@ -87,16 +203,27 @@
     .btn{
         border: 0px;
         border-radius: 4px;
-        background-color: #ff206e;
+        background-color: #ffffff;
         height: 32px;        
         width: 150px;
         margin: 5px 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+        font-size: 20px;
+    }
+    .btn:hover {
+        border: 1px solid rgba(0, 0, 0, 0.178);
+        background-color:rgba(0, 0, 0, 0.055);
+        transition: background 0.2s;
+    }
+    .btn:active{
+        background-color: #06ff3c57;
+        
     }
     .copy{
-        border: 1px solid #ff206e;
+        border: 1px solid #5f5f5f;
         border-radius: 4px;
-        color: #ff206e;
-        background-color: #0c0f0a;
+        color: #000000;
+        background-color: rgb(255, 255, 255);
         height: 32px;        
         width: 150px;
         margin: 5px 5px;

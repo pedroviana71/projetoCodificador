@@ -43,7 +43,6 @@ descript.addEventListener("click", function descriptografar() {
 
 
 const copy = document.getElementById('copy')
-copy.addEventListener("click", function copy(){    
-    textarea.select();
+copy.addEventListener("click", function copy(){
     navigator.clipboard.writeText(textarea.value);
 })
